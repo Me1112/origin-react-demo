@@ -1,0 +1,32 @@
+.event-center {
+  display: flex;
+  margin: -20px;
+  height: calc(100% + 40px);
+
+  .filter-text {
+    position: relative;
+    &::after {
+      content: '';
+      width: 1px;
+      height: 18px;
+      display: block;
+      position: absolute;
+      top: 2px;
+      right: -14px;
+      background: #b1b1b1;
+    }
+  }
+
+  .left-cot {
+    padding: 20px;
+    flex: 1;
+    max-width: calc(100% - 350px);
+  }
+
+  .right-cot {
+    background: #e5f2fe;
+    min-height: calc(100vh - 120px);
+    min-width: 350px;
+    overflow-y: auto;
+  }
+}

@@ -1,0 +1,94 @@
+@disabled-color: #d1d1d1;
+
+.export-cot {
+  height: 100%;
+  padding: 30px 0;
+
+  .export-left {
+    height: 100%;
+    border-right: 1px solid #ddd;
+
+    .steps-cot {
+      width: 200px;
+      margin: 0 auto;
+      .step {
+        .text {
+          position: relative;
+          transition: all 0.2s;
+        }
+        .text-disabled {
+          color: @disabled-color;
+        }
+        &:not(:last-child) {
+          height: 210px;
+          .num {
+            position: relative;
+            &::before {
+              position: absolute;
+              content: '';
+              width: 22px;
+              height: 22px;
+              border-radius: 50%;
+              border: 1px solid @primary-color;
+              top: 90px;
+            }
+            i {
+              position: absolute;
+              top: 94px;
+              left: 4px;
+              color: @primary-color;
+            }
+          }
+        }
+        &:not(:first-child) {
+          .text::before {
+            content: '';
+            position: absolute;
+            width: 0px;
+            border-left: 1px solid #bebebe;
+            height: 180px;
+            left: 32px;
+            top: -184px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .export-right {
+    :global {
+      .ant-time-picker-input:placeholder-shown {
+        background-color: #f6f9fc;
+        border: none;
+      }
+    }
+
+    height: 100%;
+    padding: 0 10%;
+
+    .step {
+      transition: all 0.2s;
+      .title {
+        margin: 20px 0;
+      }
+      .step-info {
+        margin-left: 20px;
+
+        .item {
+          margin-bottom: 15px;
+        }
+      }
+
+      &.step-disabled {
+        color: @disabled-color;
+
+        :global {
+          .ant-badge-status-text {
+            color: @disabled-color;
+          }
+        }
+      }
+    }
+  }
+}

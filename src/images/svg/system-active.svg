@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>系统管理-选中</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-下载" transform="translate(-17.000000, -194.000000)" fill-rule="nonzero">
+            <g id="系统管理-选中" transform="translate(17.000000, 194.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M12.1251558,12.0607045 L10.4365365,9.48862628 L10.7548904,7.5560011 L9.8745176,6.16030391 L8.41964392,6.23655061 L9.32715249,7.63082567 L9.05013503,8.93409032 L7.74454039,8.65657761 L6.83079488,7.25707664 L6.12705142,8.51557633 L7.16004349,10.0032056 L9.12815581,10.4228155 L10.7938287,12.8479475 L8,14.5 L2.5,11.2477289 L2.5,4.75227114 L8,1.5 L13.5,4.75227114 L13.5,11.2477289 L12.1251558,12.0607045 Z" id="形状结合" fill="#111111"></path>
+            </g>
+        </g>
+    </g>
+</svg>

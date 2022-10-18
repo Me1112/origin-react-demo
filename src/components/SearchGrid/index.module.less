@@ -1,0 +1,33 @@
+.formGrid {
+  :global {
+    .ant-form-item-control {
+      margin-bottom: 6px;
+    }
+
+    .ant-form-item-label {
+      width: 80px;
+    }
+
+    .ant-form-item-control-wrapper {
+      // width: ~'calc(100% - 80px)';
+    }
+  }
+
+  .btnGroup {
+    line-height: 40px;
+    text-align: right;
+    :global {
+      .ant-btn {
+        margin: 0px 0 10px 10px;
+      }
+    }
+    &.btnLeft {
+      text-align: left;
+      :global {
+        .ant-btn {
+          margin: 0px 10px 10px 0;
+        }
+      }
+    }
+  }
+}

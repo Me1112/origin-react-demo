@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>服务管理-选中</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-下载" transform="translate(-16.000000, -98.000000)" fill-rule="nonzero">
+            <g id="服务管理-选中" transform="translate(16.000000, 98.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M9,13 L12.0015625,13 L12.0015625,14 L4.0015625,14 L4.0015625,13 L7,13 L7,11.4984375 L9,11.4984375 L9,13 Z M1.0015625,2 L15.0015625,2 L15.0015625,12 L1.0015625,12 L1.0015625,2 Z M7.7015625,4.6 C6.21039368,4.6 5.0015625,5.80883118 5.0015625,7.3 C5.0015625,8.79116883 6.21039368,10 7.7015625,10 C9.19273133,10 10.4015625,8.79116883 10.4015625,7.3 L7.7015625,7.3 L7.7015625,4.6 Z M8.30156251,4 L8.30156251,6.69999999 L11.0015625,6.69999999 C11.0015625,5.20883117 9.79273133,4 8.30156251,4 Z" id="形状" fill="#111111"></path>
+            </g>
+        </g>
+    </g>
+</svg>

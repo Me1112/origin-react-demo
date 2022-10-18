@@ -1,0 +1,47 @@
+@import '~antd/lib/style/themes/default.less';
+
+:global {
+  .ant-layout-header {
+    padding: 0 22px;
+  }
+  .ant-input {
+    background-color: #f6f9fc;
+    border: none;
+  }
+}
+
+.header {
+  position: fixed;
+  width: calc(100% - 200px);
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 10px -5px #d8d8d8;
+  z-index: 99;
+}
+
+.header-options {
+  text-align: right;
+  .option-item {
+    margin-right: 20px;
+  }
+}
+
+.header-search {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.collapse {
+  background: url('../../images/collapse.png') center no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.dropText {
+  height: 90%;
+  display: inline-block;
+}

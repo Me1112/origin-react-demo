@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>默认头像</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="icons-下载" transform="translate(-208.000000, -98.000000)" fill-rule="nonzero">
+            <g id="默认头像" transform="translate(208.000000, 98.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M5.01875,4.80156744 C5.1125,3.29978253 6.33125,2.0983546 7.83125,2.00449304 C9.575,1.91063149 11,3.29978253 11,5.00806286 C11,6.66002626 9.65,8.01163268 8,8.01163268 C6.275,8.01163268 4.90625,6.54739239 5.01875,4.80156744 L5.01875,4.80156744 Z M14,14 L2,14 L2.01875,11.9913627 C2.01875,10.0014977 6.0125,8.98779287 8,8.98779287 C9.9875,8.98779287 13.98125,9.98272537 13.98125,11.9913627 L14,14 Z" id="形状" fill="#253444" opacity="0.6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

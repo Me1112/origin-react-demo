@@ -1,0 +1,37 @@
+@import '~antd/lib/style/themes/default.less';
+
+.layout {
+  height: 100vh;
+
+  .main {
+    margin-top: 120px;
+    overflow-y: auto;
+
+    .wrapper {
+      padding: 20px;
+      background: #f0f2f5;
+      overflow-y: auto;
+      .content {
+        padding: 20px;
+        box-shadow: 0 0 16px 0 #d8d8d8;
+        background: #fff;
+      }
+    }
+  }
+}
+
+.sider {
+  color: @white;
+}
+
+.page-name {
+  position: fixed;
+  width: calc(100%);
+  top: 65px;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 20px;
+  background: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}

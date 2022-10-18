@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "images/*": [
+        "./src/images/*"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ],
+      "models/*": [
+        "./src/models/*"
+      ],
+      "config/*": [
+        "./src/config/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      "layouts/*": [
+        "./src/layouts/*"
+      ]
+    }
+  },
+  "exclude": [
+    "./node_modules"
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}
