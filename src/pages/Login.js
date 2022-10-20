@@ -37,7 +37,7 @@ const Login = ({ form, login, user, menu, dispatch, location }) => {
     <div id="loginBg" className={styles['login']}>
       <div className={styles['logo']} />
       <div className={styles['login_form']}>
-        <p className={styles['login_title']}>通付盾信用认证平台</p>
+        <p className={styles['login_title']}>信用认证平台</p>
         <Form onSubmit={submitLogin}>
           <Tabs tabBarGutter={10}>
             <Tabs.TabPane tab="用户登录" key="1">
